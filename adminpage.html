@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <!-- Input field for adding new members -->
+    <label for="new-member">New Member:</label><br>
+    <input type="text" id="new-member" name="new-member"><i class="fa-solid fa-user-plus" id="add-member-btn"></i><br>
+
+    <div class="list-contet">
+        <ol id="members-list">
+            <caption>Adding List</caption>
+            
+        </ol>
+        
+    </div>
+    
+
+    <!-- Input field for updating member information -->
+    <label for="update-member">Update Member:</label><br>
+    <input type="text" id="update-member" name="update-member"><i class="fa fa-refresh" aria-hidden="true"></i><br>
+
+    <!-- Input field for removing members -->
+    <label for="remove-member">Remove Member:</label><br>
+    <input type="text" id="remove-member" name="remove-member"><i class="fa-solid fa-trash"></i><br>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
